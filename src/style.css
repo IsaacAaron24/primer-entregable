@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.App{
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card{
+    font-size: 20px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 2px 2px 8px rgb(0, 0, 0, .3);
+}
+
+
+.author{
+    margin-top: 30px;  
+    text-align: right;
+}
+
+.button-container{
+    text-align: right;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button{
+    margin: 10px 0px;
+    font-size: 20px;
+    border: none;
+}
+
